@@ -48,8 +48,8 @@ class Student:
         Имя: {self.name}
         Фамилия: {self.surname}
         Средняя оценка за домашнее задание: {self.calculate_average()}
-        Курсы в процессе изучения: {self.courses_in_progress}
-        Завершенные курсы: {self.finished_courses}
+        Курсы в процессе изучения: {''.join(self.courses_in_progress)}
+        Завершенные курсы: {''.join(self.finished_courses)}
         """
 
 
